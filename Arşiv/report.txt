@@ -1,0 +1,34 @@
+Smart User Data Cleaner Report
+
+1. Introduction
+In this project, my aim was to clean and organize raw and unstructured data coming from a user and make it more meaningful and usable. In real life, data often comes with errors, extra spaces, and inconsistent formats. This can cause problems in systems or lead to incorrect results. That’s why data cleaning is an important step. In this project, I used Python string operations to clean and organize the data step by step.
+
+2. Python Concepts Used
+In this project, I used basic Python concepts to perform data cleaning.
+
+- Variables: I used variables to store and process data step by step.
+- String data type: All data was initially in string format, and all operations were applied on strings.
+- String slicing: I used slicing to extract specific parts of strings, especially in the email part.
+- String methods:
+  strip() → used to remove spaces at the beginning and end
+  split() → used to separate the data into parts
+  lower() → used to convert all letters to lowercase
+  title() → used to format the name properly
+  find() → used to find the position of the “@” symbol in the email
+- int and float: I used these to convert data into numeric types for calculations.
+
+3. Data Cleaning Process
+When I examined the raw data, I noticed several problems. For example, there were unnecessary spaces at the beginning and end, extra spaces between words, and inconsistent uppercase and lowercase letters. Also, the email address was not in a proper format.
+
+I solved these problems step by step:
+1. I used strip() to remove spaces at the beginning and end  
+2. I used split() to separate the data into name, age, height, and email  
+3. I formatted the name using lower() and title() to make it readable  
+4. I converted the age to an integer, added 10 years, and displayed it as a float  
+5. I converted the height to float and then converted it from meters to centimeters  
+6. I converted the email to lowercase and used slicing to get the first 3 letters  
+
+After these steps, the data became cleaner and more organized. If incorrect data is not cleaned, it can cause problems in systems, so these steps are important.
+
+4. Conclusion
+With this project, I better understood the importance of data cleaning. In real life, these processes are widely used, especially in user registration systems and before data analysis. I also improved my understanding of string operations, slicing, and data type conversions in Python. This project was a good starting point for me in data science and programming.
